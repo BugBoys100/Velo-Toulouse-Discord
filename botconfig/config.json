@@ -1,0 +1,27 @@
+{
+  "token": "Je vais pas te filer mon token non mais oh",
+  "prefix": "!",
+  "loadSlashsGlobal": false,
+  "slashCommandsDirs": [
+        {
+                "Folder": "Info",
+                "CmdName": "info",
+                "CmdDescription": "Accorder des informations spécifiques sur quelque chose !"
+        },
+        {
+                "Folder": "Admin",
+                "CmdName": "admin",
+                "CmdDescription": "Administrer le serveur !"
+        },
+        {
+                "Folder": "Modération",
+                "CmdName": "mod",
+                "CmdDescription": "Quelques commandes pour modérer le serveur !"
+        },
+        {
+                "Folder": "Vélib",
+                "CmdName": "velib",
+                "CmdDescription": "Commandes sur l'API Vélo Toulouse"
+        }
+   ]
+}
